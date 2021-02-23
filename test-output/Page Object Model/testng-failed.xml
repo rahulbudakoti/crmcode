@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Page Object Model]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="qa.extentreport.ExtentReportListener"/>
+  </listeners>
+  <test name="Login Test(failed)">
+    <classes>
+      <class name="qa.test.HomePageTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="calanderlinktest"/>
+          <include name="userhometest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- qa.test.HomePageTest -->
+      <class name="qa.test.LoginPageTest">
+        <methods>
+          <include name="logintest"/>
+          <include name="titletest"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- qa.test.LoginPageTest -->
+    </classes>
+  </test> <!-- Login Test(failed) -->
+</suite> <!-- Failed suite [Page Object Model] -->

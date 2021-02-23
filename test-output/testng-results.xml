@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-02-23T10:35:52Z" name="Page Object Model" finished-at="2021-02-23T10:37:04Z" duration-ms="72681">
+    <groups>
+    </groups>
+    <test started-at="2021-02-23T10:35:52Z" name="Login Test" finished-at="2021-02-23T10:37:04Z" duration-ms="72681">
+      <class name="qa.test.LoginPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:qa.test.LoginPageTest@327b636c]" started-at="2021-02-23T16:05:52Z" name="setup" finished-at="2021-02-23T16:06:07Z" duration-ms="15033" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="logintest()[pri:0, instance:qa.test.LoginPageTest@327b636c]" started-at="2021-02-23T16:06:07Z" name="logintest" finished-at="2021-02-23T16:06:07Z" duration-ms="502" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:qa.test.LoginPageTest@327b636c]" started-at="2021-02-23T16:06:07Z" name="teardown" finished-at="2021-02-23T16:06:14Z" duration-ms="6820" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:qa.test.LoginPageTest@327b636c]" started-at="2021-02-23T16:06:29Z" name="setup" finished-at="2021-02-23T16:06:37Z" duration-ms="8349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="titletest()[pri:1, instance:qa.test.LoginPageTest@327b636c]" started-at="2021-02-23T16:06:37Z" name="titletest" finished-at="2021-02-23T16:06:37Z" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titletest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:qa.test.LoginPageTest@327b636c]" started-at="2021-02-23T16:06:37Z" name="teardown" finished-at="2021-02-23T16:06:44Z" duration-ms="6737" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- qa.test.LoginPageTest -->
+      <class name="qa.test.HomePageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:qa.test.HomePageTest@45dd4eda]" started-at="2021-02-23T16:06:14Z" name="setup" finished-at="2021-02-23T16:06:21Z" duration-ms="6871" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="calanderlinktest()[pri:0, instance:qa.test.HomePageTest@45dd4eda]" started-at="2021-02-23T16:06:21Z" name="calanderlinktest" finished-at="2021-02-23T16:06:22Z" duration-ms="1206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- calanderlinktest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:qa.test.HomePageTest@45dd4eda]" started-at="2021-02-23T16:06:22Z" name="teardown" finished-at="2021-02-23T16:06:29Z" duration-ms="6770" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:qa.test.HomePageTest@45dd4eda]" started-at="2021-02-23T16:06:44Z" name="setup" finished-at="2021-02-23T16:06:53Z" duration-ms="8533" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="userhometest()[pri:1, instance:qa.test.HomePageTest@45dd4eda]" started-at="2021-02-23T16:06:53Z" name="userhometest" finished-at="2021-02-23T16:06:58Z" duration-ms="5061" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userhometest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:qa.test.HomePageTest@45dd4eda]" started-at="2021-02-23T16:06:58Z" name="teardown" finished-at="2021-02-23T16:07:04Z" duration-ms="6753" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- qa.test.HomePageTest -->
+    </test> <!-- Login Test -->
+  </suite> <!-- Page Object Model -->
+</testng-results>
