@@ -14,7 +14,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 import qa.util.WebEventListener;
 
 public class BaseClass {
-
+//base  class
 			public static WebDriver driver;
 			public static Properties prop;
             public  static EventFiringWebDriver e_driver;
